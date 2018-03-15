@@ -5,7 +5,7 @@ import pygame
 from disc import Disc
 
 def check_events(screen):
-	"""Respong to keypresses and mouse events."""
+	"""Respond to keypresses and mouse events."""
 	for event in pygame.event.get():
 		if event.type == pygame.QUIT:
 			sys.exit()
